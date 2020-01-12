@@ -1,0 +1,49 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+header, main, nav, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header {
+    height: 100px;
+}
+header, footer {
+    background-color: rgb(16, 38, 56);
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+
+.headshot img {
+    width: 200px;
+    height: 130px;
+    text-align: right;
+    margin: 1rem;
+    border-radius: 15px;
+    float: right;
+ 
+}
+
+#Title2 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+
