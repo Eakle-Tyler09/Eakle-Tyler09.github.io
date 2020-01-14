@@ -9,14 +9,13 @@ header, main, nav, footer {
 header {
     height: 100px;
 }
+
 header, footer {
     background-color: rgb(16, 38, 56);
     color: white;
     text-align: center;
-    border-radius: 15px;
-    
+    border-radius: 15px;   
 }
-
 
 .headshot img {
     width: 200px;
@@ -25,13 +24,6 @@ header, footer {
     margin: 1rem;
     border-radius: 15px;
     float: right;
- 
-}
-#Title1 {
-    font-size: 72px;
-    line-height: 1.;
-    margin: 1.25rem auto;
- 
 }
 
 #Title2 {
