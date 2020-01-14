@@ -30,6 +30,12 @@ header, footer {
     float: right;
  
 }
+#Title1 {
+    font-size: 32px;
+    line-height: 1.5;
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
 
 #Title2 {
     font-size: 18px;
