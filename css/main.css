@@ -31,6 +31,7 @@ header, footer {
     line-height: 1.5;
     margin: 1.25rem auto;
     max-width: 760px;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
