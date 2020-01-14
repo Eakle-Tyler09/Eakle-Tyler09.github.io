@@ -1,4 +1,7 @@
-
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
 
 
 header, main, nav, footer {
@@ -9,13 +12,14 @@ header, main, nav, footer {
 header {
     height: 100px;
 }
-
 header, footer {
     background-color: rgb(16, 38, 56);
     color: white;
     text-align: center;
-    border-radius: 15px;   
+    border-radius: 15px;
+    
 }
+
 
 .headshot img {
     width: 200px;
@@ -24,6 +28,13 @@ header, footer {
     margin: 1rem;
     border-radius: 15px;
     float: right;
+ 
+}
+#Title1 {
+    font-size: 26px;
+    line-height: 1.5;
+    margin: 1.25rem auto;
+    max-width: 760px;
 }
 
 #Title2 {
@@ -35,7 +46,10 @@ header, footer {
 
 h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 72px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 
