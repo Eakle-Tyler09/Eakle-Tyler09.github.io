@@ -1,0 +1,13 @@
+@media only screen and (max-width: 60em) {
+
+
+    main { 
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header{
+        font-size: 1em;
+        height: 100px;
+    }
+    
+}

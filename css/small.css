@@ -15,23 +15,18 @@ header {
 header, footer {
     background-color: rgb(16, 38, 56);
     color: white;
-    text-align: center;
-    border-radius: 15px;
-    
+    text-align: center;   
 }
-
 
 .headshot img {
     width: 200px;
     height: 130px;
     text-align: right;
     margin: 1rem;
-    border-radius: 15px;
-    float: right;
- 
 }
+
 #Title1 {
-    font-size: 26px;
+    font-size: 18px;
     line-height: 1.5;
     margin: 1.25rem auto;
     max-width: 760px;
@@ -46,12 +41,13 @@ header, footer {
 
 h1 {
     font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+
 }
+
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+
 }
-
-
-
-
