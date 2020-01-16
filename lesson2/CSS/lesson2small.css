@@ -6,7 +6,7 @@ main {
     grid-template-columns: 1fr;
 }
 
-header {
+header, footer {
     font-size: .75em;
     height: 50 px;
 }

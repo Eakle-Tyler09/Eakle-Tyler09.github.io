@@ -7,7 +7,7 @@ main {
     }
  
 
-  header {
+  header, footer {
     text-align: center;  
     font-size: 2em;
     margin: 25px;
@@ -22,10 +22,12 @@ main {
 
 
   img {
-    width: auto;
-    height: 400px;
+    max-width: 90%;
+    height: auto;
     position: relative;
-
+    box-shadow: 10px 10px 5px grey;
+    align-content: center;
+    
     
     }
 
