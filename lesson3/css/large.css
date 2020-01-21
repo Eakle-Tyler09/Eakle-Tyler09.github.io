@@ -19,11 +19,12 @@ logo {
   height: 40px;
 }
 
-logo {
+logo img {
   background-color: white;
   position: relative;
   border-style: solid;
   border-color: #B62609;
+  height: 200px;
 }
 
 header,
@@ -141,7 +142,7 @@ footer {
 		font-size: 1.1rem;
 	}
 	main {
-		
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 	article:nth-child(3) {
 		grid-column: span 3;
