@@ -14,8 +14,16 @@ footer {
 	justify-content: center;
 	padding: 10px;
 }
-logo {
-  align-items: right;
+#logo {
+  margin-top: 0px;
+  height: 40px;
+}
+
+#logo img {
+  background-color: white;
+  position: relative;
+  border-style: solid;
+  border-color: #B62609;
 }
 
 header,
