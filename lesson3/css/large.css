@@ -10,16 +10,16 @@ footer {
   Color: White;
 	display: flex;
 	flex-flow: column;
-	align-items: left;
+	align-items: center;
 	justify-content: center;
 	padding: 10px;
 }
-#logo {
+logo {
   margin-top: 0px;
   height: 40px;
 }
 
-#logo img {
+logo {
   background-color: white;
   position: relative;
   border-style: solid;
@@ -141,9 +141,9 @@ footer {
 		font-size: 1.1rem;
 	}
 	main {
-		grid-template-columns: 1fr 1fr 1fr;
+		
 	}
 	article:nth-child(3) {
-		grid-column: span 1;
+		grid-column: span 3;
 	}
 }
