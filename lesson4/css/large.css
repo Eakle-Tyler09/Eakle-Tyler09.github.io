@@ -1,0 +1,82 @@
+/* Desktop Views ****************************/
+/*Body*/
+#content {
+
+	margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Header */
+img {
+	max-block-size: 24em;
+
+
+}
+
+header {
+	display: flex;
+	text-align: center;
+	background-color: #1c74d4;
+	align-items: center;
+	color: white;
+}
+
+.title {
+	text-size-adjust: 15em;
+
+}
+
+
+
+/* Nav */
+
+nav {
+	background-color: #61a1d9;
+	text-align: center;
+    box-shadow: 0 2px 15px gray;
+    font-family: 'Baloo', cursive;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+nav li a {
+	display: block;
+	color: #fff;
+	align-items: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: white;
+	color: #1c74d4;
+}
+.active {
+	color: yellow;
+}
+
+/* Main */
+
+main h2 {
+	color: #1c74d4;
+	font-family: 'Baloo', cursive;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-size: 4rem;
+	margin: auto;
+}
+
+/*Footer */
+
+footer {
+	background-color: #1c74d4;
+    Color: White;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+}
