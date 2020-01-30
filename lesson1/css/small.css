@@ -19,10 +19,11 @@ header, footer {
 }
 
 .headshot img {
-    width: 200px;
-    height: 130px;
-    text-align: right;
+    max-width: 200px;
+    height: auto;
+    float: right;
     margin: 1rem;
+    display: block;
 }
 
 #Title1 {
