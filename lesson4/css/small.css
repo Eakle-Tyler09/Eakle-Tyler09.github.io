@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+
+title.h1 {
+    font-size: .25 px;
+    color: tomato;
+}
+
+nav ul {
+	display: block;
+}
+}
