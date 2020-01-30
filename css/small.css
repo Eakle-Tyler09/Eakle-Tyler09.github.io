@@ -24,6 +24,7 @@ header, footer {
     float: right;
     margin: 1rem;
     display: block;
+    border-radius: 15px;
 }
 
 #Title1 {
