@@ -5,13 +5,17 @@
 main {
     grid-template-columns: 1fr;
 }
+header {
 
+    padding-top: 20px;
+
+}
 header, footer {
     font-size: .75em;
-    height: 50 px;
+
 }
 footer p {
-    font-size: 20px;
+    font-size: 50px;
     margin: unset;
 }
 }
