@@ -10,4 +10,8 @@ header, footer {
     font-size: .75em;
     height: 50 px;
 }
+footer p {
+    font-size: 20px;
+    margin: unset;
+}
 }
