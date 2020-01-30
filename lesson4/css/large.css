@@ -18,19 +18,16 @@ header {
 	display: flex;
 	text-align: center;
 	background-color: #1c74d4;
-	align-items: center;
 	color: white;
 }
 
 .title {
 	font-size: 40px;
-	display: inline;
-	text-align: left;
+	display: flex;
 	margin: 0 auto;
 	font-family: 'Baloo', cursive;
-	margin-left: -50px auto;
-
-
+	flex: 1 1 100%;
+	text-align: center;
 }
 
 
@@ -47,15 +44,21 @@ nav ul {
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
+	display: flex;
 }
 nav li a {
 	display: block;
 	color: #fff;
-	align-items: center;
+	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 0.95rem;
+	flex: 1 1 100%;
 }
+nav ul li {
+flex: 1 1 100%;
+}
+
 nav a:hover {
 	background-color: white;
 	color: #1c74d4;

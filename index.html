@@ -58,7 +58,10 @@
                 </div>
 
                 <div>
-                    <p style="color: yellow">Last Updated <a: SYSDATE></a:>
+                    <p style="color: yellow" id="date">Last Updated>
+                    <script>
+                    document.getElementById("date").innerHTML = Date();
+                    </script>
                     </p>
                 </div>
 
