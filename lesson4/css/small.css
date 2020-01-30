@@ -1,8 +1,7 @@
 @media only screen and (max-width: 600px) {
 
-title.h1 {
-    font-size: 20 px;
-    color: tomato;
+.title h1 {
+    font-size: 45px;
 }
 
 nav ul {
