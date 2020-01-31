@@ -85,7 +85,37 @@ main h2 {
 	font-size: 4rem;
 	margin: 0 auto;
 }
+.hero {
+	background-color: thistle;
+	text-align: center;
+	padding: 25px;
+}
+.forecast {
+	background-color: yellow;
+	text-align: center;
+	padding: 25px;
+}
+.article {
+	background-color: yellowgreen;
+	text-align: center;
+	padding: 25px;
+	
+}
 
+#middle {
+	background-color: #61a1d9;
+	padding: 1em;
+	display: flex;
+	text-align: left;
+  }
+
+  #map {
+
+	padding: 1em;
+	display: flex;
+	width: 100%;
+	text-align: left;
+  }
 /*Footer */
 
 footer {

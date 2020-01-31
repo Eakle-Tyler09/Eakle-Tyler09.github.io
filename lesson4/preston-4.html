@@ -10,7 +10,8 @@
 		<link rel="stylesheet" href="css/medium.css">
 		<link rel="stylesheet" href="css/small.css">
 
-
+		<script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+		<link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
 
         <link href="https://fonts.googleapis.com/css?family=Baloo|Quicksand:300,400&display=swap" rel="stylesheet">
 
@@ -43,9 +44,35 @@
 				</h2>
 
 
-				<section class="top">
-					hero
+				<section class="hero">
+					Hero img and Weather Summary
 				</section>
+				<section class="forecast">
+					5 Day Forecast
+				</section>
+				<section class="article">
+					Article
+				</section>
+
+
+				<section id="middle">
+					<!-- this is the second row of content -->
+							<div id='map' style='width: 400px; height: 300px;'>
+		  <script>
+		  mapboxgl.accessToken = 'pk.eyJ1IjoidHlsZXJlYWtsZSIsImEiOiJjazQ1Mmoxc2EwNTE3M2VvMTdlb29nOTgzIn0.x_SRqo2i9Ud_r0F4Guy9Zg';
+		  
+			  
+		  var map = new mapboxgl.Map({
+		  container: 'map', // container id
+		  style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+		  center: [-111.8766, 42.0963], // starting position [lng, lat]
+		  zoom: 9,// starting zoom
+		  });
+		  </script>
+				  </div>
+				  </section>
+
+				
 			</main>
 
 			<footer>
