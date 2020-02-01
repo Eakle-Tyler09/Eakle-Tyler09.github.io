@@ -1,20 +1,11 @@
 /* Desktop Views ****************************/
 /*Body*/
 #content {
-
 	margin: 0 auto;
     font-family: 'Quicksand', sans-serif;
 }
 
 /* Header */
-.logo img{
-    max-width: 50%;
-    height: auto;
-	position: relative;
-
-  }
-
-
 header {
 	display: flex;
 	align-content: center;
@@ -22,19 +13,29 @@ header {
 	color: white;
 	flex: 2 2 100%;
 	text-align: center;
-
-
+	align-items: center;
 }
 
-.title h1{
+.logo img{
+    max-width: 50%;
+    height: auto;
+	position: relative;
+  }
+
+.title1 h1{
 	font-size: 120px;
-	display: flex;
 	width: 100%;
 	margin: 0 auto;
 	font-family: 'Baloo', cursive;
 	flex: 1 1 100%;
 	vertical-align: middle;
-	
+	flex-direction: column;
+	justify-content: center;
+}
+
+.slogan h3 {
+	display: block;
+	padding: 0px 10px;
 }
 
 
@@ -99,7 +100,6 @@ main h2 {
 	background-color: yellowgreen;
 	text-align: center;
 	padding: 25px;
-	
 }
 
 #middle {
