@@ -1,0 +1,129 @@
+/* Desktop Views ****************************/
+/*Body*/
+#content {
+	margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Header */
+header {
+	display: flex;
+	align-content: center;
+	background-color: #1c74d4;
+	color: white;
+	flex: 2 2 100%;
+	text-align: center;
+	align-items: center;
+}
+
+.logo img{
+    max-width: 50%;
+    height: auto;
+	position: relative;
+  }
+
+.title1 h1{
+	font-size: 120px;
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Baloo', cursive;
+	flex: 1 1 100%;
+	vertical-align: middle;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.slogan h3 {
+	display: block;
+	padding: 0px 10px;
+}
+
+
+
+/* Nav */
+
+nav {
+	background-color: #61a1d9;
+	text-align: center;
+    box-shadow: 0 2px 15px gray;
+	font-family: 'Baloo', cursive;
+
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	display: flex;
+	margin-top: unset;
+}
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	flex: 1 1 100%;
+}
+nav ul li {
+flex: 1 1 100%;
+}
+
+nav a:hover {
+	background-color: white;
+	color: #1c74d4;
+}
+.active {
+	color: yellow;
+}
+
+/* Main */
+
+main h2 {
+	color: #1c74d4;
+	font-family: 'Baloo', cursive;
+	text-align: center;
+	font-size: 4rem;
+	margin: 0 auto;
+}
+.hero {
+	background-color: thistle;
+	text-align: center;
+	padding: 25px;
+}
+.forecast {
+	background-color: yellow;
+	text-align: center;
+	padding: 25px;
+}
+.article {
+	background-color: yellowgreen;
+	text-align: center;
+	padding: 25px;
+}
+
+#middle {
+	background-color: #61a1d9;
+	padding: 1em;
+	display: flex;
+	text-align: left;
+  }
+
+  #map {
+
+	padding: 1em;
+	display: flex;
+	width: 100%;
+	text-align: left;
+  }
+/*Footer */
+
+footer {
+	background-color: #1c74d4;
+    Color: White;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+}
