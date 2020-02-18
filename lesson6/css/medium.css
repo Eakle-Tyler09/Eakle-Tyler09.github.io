@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1300px) {
+
+.title1 h1 {
+    font-size: 80px;
+}
+.summary {
+    top: 26rem;
+}
+
+}
