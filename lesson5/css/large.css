@@ -99,23 +99,22 @@ main h2 {
 	max-width: 98%;
 	height: auto;
 
+
 }
 
 .summary  {
     position: absolute;
-    top: 25.75rem;
-    margin: 0 auto;
+    top: 28.5 rem;
+	margin: 0 auto;
+	margin-top: 4%;
     background: #1c74d4;
-    padding: .5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: .5rem;
     border: 1px solid #fff;
     opacity: .9;
 	box-shadow: 0 0 30px #111;
-    left: 7rem;
-    width: 250px;
-	height: 270x;
+    left: 9rem;
 	color: white;
 }
 
@@ -168,33 +167,41 @@ h4 {
 .articleImg img {
 
 	margin-left: auto;
-	box-align: right;
-	display: flex;
-	vertical-align: center;
+	display: grid;
+	vertical-align: middle;
 
 }
 
 .article h4 {
 	text-align: left;
+	margin-top: auto;
 }
 
-#middle {
+#mapSection {
 	background-color: #61a1d9;
 	padding: 1em;
-	grid-row: 3;
-    grid-column: 3/3;
 	max-width: 100%;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 2%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	color: white;
+	font-family: 'Baloo', cursive;
   }
 
   #map {
 
 	padding: 1em;
 	display: flex;
-	width: 90%;
+	width: 100%;
 	text-align: left;
+  }
+
+  #contactInfo {
+	font-size: larger;
+	display: block;
+
   }
 /*Footer */
 
