@@ -8,10 +8,40 @@ nav ul {
 	display: block;
 }
 
+main {
+    margin-left: 0;
+    margin-right: 0;
+}
 .summary {
-    top: 30rem;
+    position: relative;
+    block-size: 75%;
+    left: auto;
+    max-width: 65%;
+    margin-top: -35%;
 }
 .fiveDayForecast {
     display: none;
 }
+.article { 
+    margin-left: 0;
+    margin-right: 0;
+    grid-template-columns: 1fr;
+}
+.articleImg img {
+    justify-content: center;
+}
+
+#mapSection {
+    margin-left: 0;
+    margin-right: 0;
+}
+footer {
+    margin-left: 0;
+    margin-right: 0;
+}
+#map {
+    display: none;
+}
+
+
 }
