@@ -79,39 +79,45 @@ nav a:hover {
 
 /* Main */
 
+main {
+	max-width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 main h2 {
 	color: #1c74d4;
 	font-family: 'Baloo', cursive;
 	text-align: center;
 	font-size: 4rem;
-	margin: 0 auto;
+
 }
 .hero {
 	text-align: center;
 
 }
 .hero img {
-	width: auto;
-	height: 340px;
+	max-width: 98%;
+
+	min-height: 80%;
+
 
 }
 
 .summary  {
     position: absolute;
-    top: 25.75rem;
-    margin: 0 auto;
+    top: 22.5 rem;
+	margin: 4%;
+	margin-top: -16rem;
     background: #1c74d4;
-    padding: .5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: .5rem;
     border: 1px solid #fff;
     opacity: .9;
 	box-shadow: 0 0 30px #111;
-    left: 7rem;
-    width: 250px;
-	height: 270x;
+    left: 9rem;
 	color: white;
+	max-width: 100%;
 }
 
 .summary span {
@@ -122,12 +128,13 @@ main h2 {
     grid-row: 1;
     grid-column: 1/3;
     color: #f8f8f8;
-	padding: .7px 0;
+	padding: 1.8px 0;
 }
 .fiveDayForecast {
-background-color: #1c74d4;
-text-align: center;
-color: white;
+	background-color: #1c74d4;
+	text-align: center;
+	color: white;
+	justify-content: center;
 
 }
 h4 {
@@ -151,34 +158,52 @@ h4 {
 	padding: 25px;
 	color: white;
 	font-family: 'Baloo', cursive;
-	overflow: auto;
+	display: grid;
+	max-width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+	grid-template-columns: 1fr 1fr;
 }
 
 .articleImg img {
-	display: block;
+
 	margin-left: auto;
-	margin-right: 0;
-	margin-top: -5rem;
-	width: 30%;
+	display: grid;
+	vertical-align: middle;
+	
 }
 
 .article h4 {
 	text-align: left;
+	margin-top: auto;
 }
 
-#middle {
+#mapSection {
 	background-color: #61a1d9;
 	padding: 1em;
-	display: flex;
-	text-align: left;
+	max-width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	color: white;
+	font-family: 'Baloo', cursive;
   }
 
   #map {
 
 	padding: 1em;
 	display: flex;
-	width: 100%;
+	max-width: 100%;
 	text-align: left;
+  }
+
+  #contactInfo {
+	font-size: larger;
+	display: block;
+
   }
 /*Footer */
 
@@ -191,5 +216,8 @@ footer {
 	justify-content: center;
 	font-size: 1.5rem;
 	font-family: 'Baloo', cursive;
+	max-width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
 
 }

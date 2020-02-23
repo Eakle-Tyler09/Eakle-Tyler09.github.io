@@ -2,9 +2,10 @@
 
 .title1 h1 {
     font-size: 80px;
+    color: brown;
 }
 .summary {
-    top: 26rem;
+    top: 2 rem;
 }
 
 }
